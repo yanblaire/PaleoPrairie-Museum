@@ -17,15 +17,15 @@
         <div class="logo">
             <img src="assets/Logo/Logo-light.png" alt="PaleoPrairie Museum Logo">
         </div>
-        <nav aria-label="Main Navigation">
+        <nav aria-label="Main Navigation" class="londrina-solid-light">
             <ul>
-                <li><a href="#">Visit</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Donate</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#exhibits">Exhibits</a></li>
+                <li><a href="#donate">Donate</a></li>
             </ul>
         </nav>
     </header>
-    <section class="hero-section">
+    <section class="hero-section" aria-label="Hero Section">
         <div class="hero-slide active">
             <img src="assets/Excavation-Site/Dig-Site.jpg" alt="Excavation-Site" >
         </div>
@@ -48,7 +48,7 @@
         </div>
     </section>
     <main>
-        <div class="info-section cards-section londrina-solid-light">
+        <div class="info-section cards-section londrina-solid-light" id="donate" aria-label="Info Section">
             <div class="card">
                 <h2>Admissions and Membership</h2>
                 <p>Our admission to regular visit is free with a suggested donation.</p>
@@ -68,7 +68,7 @@
                     paleontologists, tourists and more can experience the wonders of Kansas History.</p>
             </div>
         </div>
-        <div class="about-us londrina-solid-light">
+        <div class="about-us londrina-solid-light" id="about" aria-label="About Us Section">
             <h2>About Us</h2>
             <p>Our museum began with a simple but powerful idea: to keep the fossils of western
                 Kansas in western Kansas. Nestled in a region rich with prehistoric history, we are
@@ -84,7 +84,7 @@
                 their mark here millions of years ago.</p>
         </div>
 
-        <div class="exhibits-section londrina-solid-light">
+        <div class="exhibits-section londrina-solid-light" id="exhibits" aria-label="Exhibits Section">
 
             <h2 id="exhibits">Current Exhibits</h1>
 
@@ -108,7 +108,7 @@
             </div>
             <hr>
             <div class="exhibit cards-section line-separator">
-                <div class="card">
+                <div class="card" id="card-description">
                     <h2>Prairie Giants: Dinosaurs of the High Plains</h2>
                     <p>Discover the land-dwelling dinosaurs that roamed Kansas when the waters receded.
                         Learn about the climate and vegetation that supported these animals, and see full
@@ -122,7 +122,7 @@
                     </ul>
                     </div>
                 </div>
-                <img src="./assets/Fossils/Group-Of-Fossils.jpg" alt="group of fossils image">
+                <img id="card-image" src="./assets/Fossils/Group-Of-Fossils.jpg" alt="group of fossils image">
             </div>
             <hr>
             <div class="exhibit cards-section line-separator">

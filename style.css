@@ -104,6 +104,10 @@ footer{
 }
 
 /*------- About Us Section Styling -------*/
+.card h2, .about-us h2{
+    position: relative;
+    display: inline-block;
+}
 .about-us{
   background-color: var(--primary-color);
   border: 1px solid var(--accent-color);
@@ -336,7 +340,7 @@ nav ul li a:hover::after{
     margin-bottom: 1.3rem;
 }
 
-.hero-content h1::after, #exhibits::after{
+.hero-content h1::after, #exhibits::after, .card h2::after, .about-us h2::after{
     content: "";
     position: absolute;
     bottom: -10px;
@@ -433,7 +437,12 @@ nav ul li a:hover::after{
       align-items: start;
         order: 2;
     }
-
+    #card-description{
+        order: 2;
+    }
+    #card-image{
+        order: 1;
+    }
     
 }
 /*------- End Mobile Size Section -------*/

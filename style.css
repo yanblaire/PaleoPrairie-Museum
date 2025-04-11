@@ -169,8 +169,22 @@ form .submit-button:hover{
 }
 
 .social-media-section{
- color: var(--primary-color);
+ color: var(--text-color);
  text-shadow:  0 0 15px var(--accent-color);
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ font-size: 2rem;
+ align-items: center;
+ width: 10%;
+}
+
+.copyright-section{
+  color: var(--text-color);
+  text-shadow:  0 0 15px var(--accent-color);
+  font-size: 1.5rem;
+  align-items: center;
+  width: 10%;
 }
 
 header{

@@ -1,3 +1,16 @@
+var submitButton = document.querySelector('.submit-button');
+var emailInput = document.querySelector('.email-input');
+submitButton.addEventListener('click', function(e){
+
+    if(emailInput.value == '' || emailInput.value == null){
+        alert('Please enter your email address');
+        return;
+    }
+
+    emailInput.value = '';
+    alert('Thank you for your submission!');
+})
+
 // Navigation Bar Scrool Animation
 window.addEventListener('scroll', function() {
     var header = document.querySelector('header');
@@ -49,3 +62,4 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('No hero slides found!');
     }
 })
+

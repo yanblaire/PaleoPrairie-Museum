@@ -56,10 +56,10 @@ main{
 footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 2rem;
-  padding: 1rem 2rem;
+  padding: 1rem;
   color: var(--text-color);
   width: 100%;
   height: auto;
@@ -130,7 +130,7 @@ form{
   justify-content: center;
   letter-spacing: var(--letter-spacing);
   align-items: end;
-  width: 30rem;
+  width: 100%;
   gap: 1rem;
 }
 
@@ -174,6 +174,8 @@ form .submit-button:hover{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ cursor: pointer;
+ letter-spacing: 1rem;
  font-size: 2rem;
  align-items: center;
  width: 10%;
@@ -332,6 +334,25 @@ nav ul li a:hover::after{
         letter-spacing: 0.1rem;
 
     }
+
+    .exhibits-section:nth-child(2) .exhibit:nth-child(1){
+        order: 1;
+    }
+
+    footer{
+      padding: 1rem 2rem;
+      justify-content: space-between;
+    }
+
+    .social-media-section{
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .copyright-section{
+      width: 25%;
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width: 480px) {
     nav ul{
@@ -353,4 +374,27 @@ nav ul li a:hover::after{
     .hero-content p{
         font-size: 1rem;
     }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .social-media-section{
+      position: relative;
+        width: 100%;
+        bottom: -50px;
+        justify-content: end;
+        align-items: end;
+        letter-spacing: 1rem;
+        order: 1;
+    }
+
+    .copyright-section{
+      width: 100%;
+      justify-content: start;
+      align-items: start;
+        order: 2;
+    }
+
+    
 }

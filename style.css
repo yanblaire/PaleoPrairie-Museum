@@ -21,4 +21,15 @@
     font-weight: 900;
     font-style: normal;
   }
+
+:root {
+  --primary-color: #1c7293;
+  --secondary-color: #13293D;
+  --accent-color: #c9ddff;
+  --text-color: #fcdebe;
+}
+
+*{
+  box-sizing: border-box;
+}
   

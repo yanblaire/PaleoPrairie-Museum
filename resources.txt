@@ -1,0 +1,11 @@
+Color Pallete - Coolers
+Font - Google Fonts
+Icons - Fonts Awesome
+
+
+
+# 2025 SKillsUSA KANSAS Competition - Web Design & Development
+
+This project was created in only a few hours, during the SKillsUSA Kansas State Championship.
+
+## Created by Omar Lopez and Yan Dologuin
